@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <title>Gadget Master | Products</title>
+</head>
+<body class="product-page">
+  <header class="header" id="header">
+    <nav class="navigation">
+      <div class="container">
+        <div class="nav">
+          <div class="nav__logo">
+            <a href="index.html">Gadget Master</a>
+          </div>
+
+          <div class="nav__menu">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+            </ul>
+          </div>
+
+          <div class="nav__icons">
+            <a href="javascript:void(0);" class="icon__item" id="search-btn" title="Search">
+              <svg class="icon">
+                <use xlink:href="./images/sprite.svg#icon-search"></use>
+              </svg>
+            </a>
+
+            <a href="#" class="icon__item" title="Login">
+              <svg class="icon">
+                <use xlink:href="./images/sprite.svg#icon-user"></use>
+              </svg>
+            </a>
+
+            <a href="cart.html" class="icon__item cart" title="Cart">
+              <svg class="icon">
+                <use xlink:href="./images/sprite.svg#icon-shopping-basket"></use>
+              </svg>
+              <span id="cart__total">0</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="page__title-area">
+      <div class="container">
+        <div class="page__title-container">
+          <ul class="page__titles">
+            <li>
+              <a href="index.html">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#icon-home"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="page__title">Gadget Master Product</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="searchF">
+      <form action="" class="search-form" onsubmit="return false;">
+        <input type="search" id="search-box" placeholder="Search here.." autocomplete="off">
+        <label for="search-box" id="search-submit">
+          <svg>
+            <use xlink:href="./images/sprite.svg#icon-search"></use>
+          </svg>
+        </label>
+      </form>
+      <div class="search-suggestions" id="search-suggestions"></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <section class="category__section section" id="category">
+        <div class="section__header">
+          <span>Browse products</span>
+          <h2>Find the perfect gadget by category</h2>
+        </div>
+        <div class="category__top">
+          <div class="title__container tabs">
+            <div class="section__titles">
+              <button type="button" class="section__title filter-btn active" data-id="All Products" aria-pressed="true">
+                <span class="dot"></span>
+                <h1 class="primary__title">All Products</h1>
+              </button>
+            </div>
+
+            <div class="section__titles">
+              <button type="button" class="section__title filter-btn" data-id="Phones" aria-pressed="false">
+                <span class="dot"></span>
+                <h1 class="primary__title">Phones</h1>
+              </button>
+            </div>
+
+            <div class="section__titles">
+              <button type="button" class="section__title filter-btn" data-id="TVs" aria-pressed="false">
+                <span class="dot"></span>
+                <h1 class="primary__title">TVs</h1>
+              </button>
+            </div>
+
+            <div class="section__titles">
+              <button type="button" class="section__title filter-btn" data-id="Tablets" aria-pressed="false">
+                <span class="dot"></span>
+                <h1 class="primary__title">Tablets</h1>
+              </button>
+            </div>
+
+            <div class="section__titles">
+              <button type="button" class="section__title filter-btn" data-id="Gaming" aria-pressed="false">
+                <span class="dot"></span>
+                <h1 class="primary__title">Gaming</h1>
+              </button>
+            </div>
+
+            <div class="section__titles">
+              <button type="button" class="section__title filter-btn" data-id="Laptops" aria-pressed="false">
+                <span class="dot"></span>
+                <h1 class="primary__title">Laptops</h1>
+              </button>
+            </div>
+
+            <div class="section__titles">
+              <button type="button" class="section__title filter-btn" data-id="Audio" aria-pressed="false">
+                <span class="dot"></span>
+                <h1 class="primary__title">Audio</h1>
+              </button>
+            </div>
+
+            <div class="section__titles">
+              <button type="button" class="section__title filter-btn" data-id="Accessories" aria-pressed="false">
+                <span class="dot"></span>
+                <h1 class="primary__title">Accessories</h1>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="category__container" data-aos="fade-up" data-aos-duration="1200">
+          <div class="category__center"></div>
+        </div>
+      </section>
+    </div>
+
+    <section class="facility__section section" id="facility">
+      <div class="container">
+        <div class="facility__contianer">
+          <div class="facility__box">
+            <div class="facility-img__container">
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-airplane"></use>
+              </svg>
+            </div>
+            <p>FREE SHIPPING WORLD WIDE</p>
+          </div>
+
+          <div class="facility__box">
+            <div class="facility-img__container">
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-credit-card-alt"></use>
+              </svg>
+            </div>
+            <p>100% MONEY BACK GUARANTEE</p>
+          </div>
+
+          <div class="facility__box">
+            <div class="facility-img__container">
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-credit-card"></use>
+              </svg>
+            </div>
+            <p>MANY PAYMENT GATEWAYS</p>
+          </div>
+
+          <div class="facility__box">
+            <div class="facility-img__container">
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-headphones"></use>
+              </svg>
+            </div>
+            <p>24/7 ONLINE SUPPORT</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer-top__box">
+          <h3>EXTRAS</h3>
+          <a href="#">Brands</a>
+          <a href="#">Gift Certificates</a>
+          <a href="#">Affiliate</a>
+          <a href="#">Specials</a>
+          <a href="#">Site Map</a>
+        </div>
+
+        <div class="footer-top__box">
+          <h3>INFORMATION</h3>
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Site Map</a>
+        </div>
+
+        <div class="footer-top__box">
+          <h3>MY ACCOUNT</h3>
+          <a href="#">My Account</a>
+          <a href="#">Order History</a>
+          <a href="#">Wish List</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Returns</a>
+        </div>
+
+        <div class="footer-top__box">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-location"></use>
+              </svg>
+            </span>
+            plot 3, Nkasero, Kampala, Uganda
+          </div>
+
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-envelop"></use>
+              </svg>
+            </span>
+            mugenyi.abbas@student.utamu.ac.ug
+          </div>
+
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+            </span>
+            256-779-136-304
+          </div>
+
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-paperplane"></use>
+              </svg>
+            </span>
+            Kampala, Uganda
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#header" class="goto-top scroll-link">
+    <svg>
+      <use xlink:href="./images/sprite.svg#icon-arrow-up"></use>
+    </svg>
+  </a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/cart.js"></script>
+  <script src="./js/products.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/slider.js"></script>
+</body>
+</html>

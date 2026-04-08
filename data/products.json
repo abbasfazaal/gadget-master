@@ -1,0 +1,508 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Samsung Galaxy S24",
+      "image": "./images/products/sumsung/samsung5.jpeg",
+      "price": 4436300,
+      "category": "Phones"
+    },
+    {
+      "id": 2,
+      "title": "iPhone 15 Pro",
+      "image": "./images/products/iPhone/iphone6.jpeg",
+      "price": 4806300,
+      "category": "Phones"
+    },
+    {
+      "id": 3,
+      "title": "Samsung Galaxy A54",
+      "image": "./images/products/sumsung/samsung4.jpeg",
+      "price": 2216300,
+      "category": "Phones"
+    },
+    {
+      "id": 4,
+      "title": "Dell Inspiron 14",
+      "image": "./images/products/Dell%20Inspiron%2014.jpg",
+      "price": 2586300,
+      "category": "Laptops"
+    },
+    {
+      "id": 5,
+      "title": "MacBook Air M2",
+      "image": "./images/products/MacBook%20Air%20M2.jpg",
+      "price": 4436300,
+      "category": "Laptops"
+    },
+    {
+      "id": 6,
+      "title": "JBL Tune 510BT",
+      "image": "./images/products/headphone/headphone2.jpeg",
+      "price": 292300,
+      "category": "Audio"
+    },
+    {
+      "id": 7,
+      "title": "Anker Soundcore Liberty Air",
+      "image": "./images/products/headphone/headphone3.jpeg",
+      "price": 366300,
+      "category": "Audio"
+    },
+    {
+      "id": 8,
+      "title": "Boat Rockerz 255",
+      "image": "./images/products/headphone/headphone4.jpeg",
+      "price": 166500,
+      "category": "Audio"
+    },
+    {
+      "id": 9,
+      "title": "Oraimo Power Bank 20000mAh",
+      "image": "./images/products/Oraimo%20Power%20Bank%2020000mAh.jpg",
+      "price": 218300,
+      "category": "Accessories"
+    },
+    {
+      "id": 10,
+      "title": "Anker 65W Charger",
+      "image": "./images/products/Anker%2065W%20Charger.jpg",
+      "price": 144300,
+      "category": "Accessories"
+    },
+    {
+      "id": 11,
+      "title": "Adata 128GB microSD",
+      "image": "./images/products/Adata%20128GB%20microSD.webp",
+      "price": 88800,
+      "category": "Accessories"
+    },
+    {
+      "id": 12,
+      "title": "Logitech M170 Wireless Mouse",
+      "image": "./images/products/logitech_k380.jpg",
+      "price": 70300,
+      "category": "Accessories"
+    },
+    {
+      "id": 13,
+      "title": "HP Pavilion 15",
+      "image": "./images/products/HP Pavilion.jpg",
+      "price": 2771300,
+      "category": "Laptops"
+    },
+    {
+      "id": 14,
+      "title": "ASUS VivoBook 15",
+      "image": "./images/products/asus_vivobook_15.jpg",
+      "price": 2512300,
+      "category": "Laptops"
+    },
+    {
+      "id": 15,
+      "title": "Samsung T5 1TB SSD",
+      "image": "./images/products/samsung_t5_1tb_ssd.jpg",
+      "price": 440300,
+      "category": "Accessories"
+    },
+    {
+      "id": 16,
+      "title": "Sony WH-1000XM5",
+      "image": "./images/products/sony_wh1000xm5.jpg",
+      "price": 1291300,
+      "category": "Audio"
+    },
+    {
+      "id": 17,
+      "title": "Adata 512GB microSD",
+      "image": "./images/products/adata_512gb_microsd.jpeg",
+      "price": 181300,
+      "category": "Accessories"
+    },
+    {
+      "id": 18,
+      "title": "Logitech K380 Bluetooth Keyboard",
+      "image": "./images/products/logitech_k380.jpg",
+      "price": 144300,
+      "category": "Accessories"
+    },
+    {
+      "id": 19,
+      "title": "Samsung 55\" Smart TV",
+      "image": "./images/products/tv/Family Smart TV.jpg",
+      "price": 4806300,
+      "category": "TVs"
+    },
+    {
+      "id": 20,
+      "title": "4K QLED TV",
+      "image": "./images/products/tv/65 inch QLED TV.jpg",
+      "price": 5546300,
+      "category": "TVs"
+    },
+    {
+      "id": 21,
+      "title": "Android Tablet",
+      "image": "./images/products/tabs/Android Tablet.webp",
+      "price": 1846300,
+      "category": "Tablets"
+    },
+    {
+      "id": 22,
+      "title": "Kids Tablet",
+      "image": "./images/products/tabs/Kids Tablet.jpg",
+      "price": 921300,
+      "category": "Tablets"
+    },
+    {
+      "id": 23,
+      "title": "Gaming Headset",
+      "image": "./images/products/headphone/headphone1.jpeg",
+      "price": 814000,
+      "category": "Gaming"
+    },
+    {
+      "id": 24,
+      "title": "Gaming Monitor",
+      "image": "./images/products/gaming/Gaming Monitor.webp",
+      "price": 2031300,
+      "category": "Gaming"
+    },
+    {
+      "id": 25,
+      "title": "iPhone 14 Pro",
+      "image": "./images/products/iPhone/iphone5.jpeg",
+      "price": 3696300,
+      "category": "Phones"
+    },
+    {
+      "id": 26,
+      "title": "Samsung Galaxy S23",
+      "image": "./images/products/sumsung/samsung1.jpeg",
+      "price": 3696300,
+      "category": "Phones"
+    },
+    {
+      "id": 27,
+      "title": "iPhone 13 Mini",
+      "image": "./images/products/iPhone/iphone4.jpeg",
+      "price": 2586300,
+      "category": "Phones"
+    },
+    {
+      "id": 28,
+      "title": "Samsung Galaxy Z Flip",
+      "image": "./images/products/sumsung/samsung2.jpeg",
+      "price": 4066300,
+      "category": "Phones"
+    },
+    {
+      "id": 29,
+      "title": "iPhone 12 Pro",
+      "image": "./images/products/iPhone/iphone3.jpeg",
+      "price": 2956300,
+      "category": "Phones"
+    },
+    {
+      "id": 30,
+      "title": "Samsung Galaxy A14",
+      "image": "./images/products/sumsung/samsung6.jpeg",
+      "price": 921300,
+      "category": "Phones"
+    },
+    {
+      "id": 31,
+      "title": "iPhone XR",
+      "image": "./images/products/iPhone/iphone1.jpeg",
+      "price": 2031300,
+      "category": "Phones"
+    },
+    {
+      "id": 32,
+      "title": "iPhone 11",
+      "image": "./images/products/iPhone/iphone2.jpeg",
+      "price": 2401300,
+      "category": "Phones"
+    },
+    {
+      "id": 33,
+      "title": "Sony In-Ear Headphones",
+      "image": "./images/products/headphone/headphone5.jpeg",
+      "price": 329300,
+      "category": "Audio"
+    },
+    {
+      "id": 34,
+      "title": "Wireless Gaming Earbuds",
+      "image": "./images/products/headphone/headphone6.jpeg",
+      "price": 477300,
+      "category": "Audio"
+    },
+    {
+      "id": 35,
+      "title": "Noise Cancelling Headphones",
+      "image": "./images/products/headphone/headphone7.jpeg",
+      "price": 588300,
+      "category": "Audio"
+    },
+    {
+      "id": 36,
+      "title": "Bluetooth Headphones",
+      "image": "./images/products/headphone/headphone8.jpeg",
+      "price": 255300,
+      "category": "Audio"
+    },
+    {
+      "id": 37,
+      "title": "Sport Earbuds",
+      "image": "./images/products/headphone/headphone9.jpeg",
+      "price": 181300,
+      "category": "Audio"
+    },
+    {
+      "id": 38,
+      "title": "Studio Monitor Headphones",
+      "image": "./images/products/headphone/headphone10.jpeg",
+      "price": 699300,
+      "category": "Audio"
+    },
+    {
+      "id": 39,
+      "title": "Crystal UHD TV",
+      "image": "./images/products/tv/55 inch Cinema TV.jpg",
+      "price": 3696300,
+      "category": "TVs"
+    },
+    {
+      "id": 40,
+      "title": "Smart LED TV",
+      "image": "./images/products/tv/Home Theater TV.png",
+      "price": 3326300,
+      "category": "TVs"
+    },
+    {
+      "id": 41,
+      "title": "Ultra Slim TV",
+      "image": "./images/products/tv/Ultra Slim TV.webp",
+      "price": 4066300,
+      "category": "TVs"
+    },
+    {
+      "id": 42,
+      "title": "55\" Cinema TV",
+      "image": "./images/products/tv/55 inch Cinema TV.jpg",
+      "price": 4806300,
+      "category": "TVs"
+    },
+    {
+      "id": 43,
+      "title": "65\" QLED TV",
+      "image": "./images/products/tv/65 inch QLED TV.jpg",
+      "price": 5546300,
+      "category": "TVs"
+    },
+    {
+      "id": 44,
+      "title": "50\" Frame TV",
+      "image": "./images/products/tv/50 inch Frame TV.avif",
+      "price": 4436300,
+      "category": "TVs"
+    },
+    {
+      "id": 45,
+      "title": "Home Theater TV",
+      "image": "./images/products/tv/Home Theater TV.png",
+      "price": 5176300,
+      "category": "TVs"
+    },
+    {
+      "id": 46,
+      "title": "Family Smart TV",
+      "image": "./images/products/tv/Family Smart TV.webp",
+      "price": 4066300,
+      "category": "TVs"
+    },
+    {
+      "id": 47,
+      "title": "iPad Air",
+      "image": "./images/products/tabs/iPad Air.webp",
+      "price": 2956300,
+      "category": "Tablets"
+    },
+    {
+      "id": 48,
+      "title": "Galaxy Tab S8",
+      "image": "./images/products/tabs/Galaxy Tab S8.jpg",
+      "price": 2586300,
+      "category": "Tablets"
+    },
+    {
+      "id": 49,
+      "title": "Fire HD 10",
+      "image": "./images/products/tabs/Fire HD 10.jpg",
+      "price": 662300,
+      "category": "Tablets"
+    },
+    {
+      "id": 50,
+      "title": "Lenovo Tab M10",
+      "image": "./images/products/tabs/Lenovo Tab M10.jpg",
+      "price": 847300,
+      "category": "Tablets"
+    },
+    {
+      "id": 51,
+      "title": "iPad Mini",
+      "image": "./images/products/tabs/iPad Mini.jpg",
+      "price": 1846300,
+      "category": "Tablets"
+    },
+    {
+      "id": 52,
+      "title": "Galaxy Tab A7",
+      "image": "./images/products/tabs/Galaxy Tab A7.jpg",
+      "price": 1106300,
+      "category": "Tablets"
+    },
+    {
+      "id": 53,
+      "title": "Surface Go Tablet",
+      "image": "./images/products/tabs/Surface Go Tablet.webp",
+      "price": 1476300,
+      "category": "Tablets"
+    },
+    {
+      "id": 54,
+      "title": "Pro Artist Tablet",
+      "image": "./images/products/tabs/Pro Artist Tablet.jpg",
+      "price": 2216300,
+      "category": "Tablets"
+    },
+    {
+      "id": 55,
+      "title": "RGB Gaming Headset",
+      "image": "./images/products/headphone/headphone10.jpeg",
+      "price": 662300,
+      "category": "Gaming"
+    },
+    {
+      "id": 56,
+      "title": "Pro Gaming Headphones",
+      "image": "./images/products/headphone/headphone7.jpeg",
+      "price": 736300,
+      "category": "Gaming"
+    },
+    {
+      "id": 57,
+      "title": "Gaming Earbuds",
+      "image": "./images/products/gaming/Gaming Earbuds.webp",
+      "price": 514300,
+      "category": "Gaming"
+    },
+    {
+      "id": 58,
+      "title": "Wireless Gaming Headphones",
+      "image": "./images/products/headphone/headphone12.jpeg",
+      "price": 588300,
+      "category": "Gaming"
+    },
+    {
+      "id": 59,
+      "title": "E-Sports Headset",
+      "image": "./images/products/headphone/headphone8.jpeg",
+      "price": 551300,
+      "category": "Gaming"
+    },
+    {
+      "id": 60,
+      "title": "Tactical Gaming Headset",
+      "image": "./images/products/headphone/headphone9.jpeg",
+      "price": 625300,
+      "category": "Gaming"
+    },
+    {
+      "id": 61,
+      "title": "Gaming Audio System",
+      "image": "./images/products/gaming/Gaming Audio System.jpg",
+      "price": 958300,
+      "category": "Gaming"
+    },
+    {
+      "id": 62,
+      "title": "Pro Streamer Headset",
+      "image": "./images/products/headphone/sony.jpeg",
+      "price": 884300,
+      "category": "Gaming"
+    },
+    {
+      "id": 63,
+      "title": "PlayStation 5 Console",
+      "image": "./images/products/gaming/PlayStation 5 Console.avif",
+      "price": 1846300,
+      "category": "Gaming"
+    },
+    {
+      "id": 64,
+      "title": "Xbox Series X",
+      "image": "./images/products/gaming/Xbox Series X.jpg",
+      "price": 1846300,
+      "category": "Gaming"
+    },
+    {
+      "id": 65,
+      "title": "Nintendo Switch OLED",
+      "image": "./images/products/gaming/Nintendo Switch OLED.webp",
+      "price": 1291300,
+      "category": "Gaming"
+    },
+    {
+      "id": 66,
+      "title": "PS5 DualSense Controller",
+      "image": "./images/products/gaming/PS5 DualSense Controller.webp",
+      "price": 255300,
+      "category": "Gaming"
+    },
+    {
+      "id": 67,
+      "title": "Xbox Wireless Controller",
+      "image": "./images/products/gaming/Xbox Wireless Controller.jpg",
+      "price": 218300,
+      "category": "Gaming"
+    },
+    {
+      "id": 68,
+      "title": "Mechanical Gaming Keyboard",
+      "image": "./images/products/gaming/Mechanical Gaming Keyboard.webp",
+      "price": 477300,
+      "category": "Gaming"
+    },
+    {
+      "id": 69,
+      "title": "RGB Gaming Mouse",
+      "image": "./images/products/gaming/RGB Gaming Mouse.webp",
+      "price": 292300,
+      "category": "Gaming"
+    },
+    {
+      "id": 70,
+      "title": "Gaming Chair",
+      "image": "./images/products/gaming/Gaming Chair.webp",
+      "price": 1106300,
+      "category": "Gaming"
+    },
+    {
+      "id": 71,
+      "title": "VR Headset",
+      "image": "./images/products/gaming/VR Headset.jpg",
+      "price": 1476300,
+      "category": "Gaming"
+    },
+    {
+      "id": 72,
+      "title": "Gaming PC Build",
+      "image": "./images/products/gaming/Gaming PC Build.webp",
+      "price": 5546300,
+      "category": "Gaming"
+    }
+  ]
+}
