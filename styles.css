@@ -323,16 +323,44 @@ Navigation Media Query
   }
 
   .nav__menu.open {
-    left: 30rem;
-    width: 30rem;
+    left: 0;
+    width: 100%;
+    max-width: 30rem;
   }
 
   .nav__logo {
     width: 50%;
   }
 
+  .nav {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .nav__icons {
+    order: 3;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 0.8rem;
+  }
+
   .nav__hamburger {
-    display: block;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .topbar__content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+  }
+
+  .topbar__links {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem;
   }
 
   .menu__top {
@@ -535,28 +563,41 @@ Hero Media Query
 ======================
 */
 @media only screen and (max-width: 999px) {
-  .hero__center {
+  .hero__content {
+    display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
+    gap: 2rem;
   }
 
-  .hero__right {
-    top: 50%;
-    position: absolute;
-  }
-
-  .hero__left {
-    position: absolute;
+  .hero__details {
+    width: 100%;
     padding: 0 1rem;
-    top: 20%;
   }
 
-  .hero__right img {
-    width: 55%;
+  .hero__visual {
+    width: 100%;
+    margin-top: 1rem;
   }
 
-  .hero__btn {
-    padding: 1.1rem 2.8rem;
+  .hero__visual img {
+    width: 100%;
+  }
+
+  .hero__details h1 {
+    font-size: 3.6rem;
+    line-height: 1.05;
+  }
+
+  .hero__details p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    max-width: 100%;
+  }
+
+  .hero__actions .btn {
+    padding: 1.1rem 2.4rem;
   }
 
   .hero .glide__arrows {
@@ -567,11 +608,22 @@ Hero Media Query
 @media only screen and (max-width: 567px) {
   .hero,
   .hero .glide__slides {
-    height: 60vh;
+    min-height: 60vh;
+    height: auto;
   }
 
-  .hero__right {
+  .hero__visual {
     display: none;
+  }
+
+  .hero__details h1 {
+    font-size: 2.6rem;
+    line-height: 1.1;
+  }
+
+  .hero__details p {
+    font-size: 1.4rem;
+    line-height: 2rem;
   }
 }
 
@@ -1143,8 +1195,14 @@ Latest Products Media Query
 }
 
 @media only screen and (max-width: 578px) {
+  .product {
+    width: 100%;
+    max-width: 34rem;
+    margin: 0 auto;
+  }
+
   .product__header {
-    height: 20rem;
+    height: 18rem;
   }
 
   .product__btn:hover {
@@ -1153,7 +1211,7 @@ Latest Products Media Query
   }
 
   .product__header img {
-    width: 50%;
+    width: 70%;
   }
 
   .product__footer h3 {
