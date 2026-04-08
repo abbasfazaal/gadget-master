@@ -1202,7 +1202,12 @@ Latest Products Media Query
   }
 
   .product__header {
-    height: 18rem;
+    min-height: 16rem;
+    height: auto;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .product__btn:hover {
@@ -1211,7 +1216,13 @@ Latest Products Media Query
   }
 
   .product__header img {
-    width: 70%;
+    width: auto;
+    max-width: 80%;
+    max-height: 16rem;
+  }
+
+  .product__footer {
+    margin-top: 1rem;
   }
 
   .product__footer h3 {
@@ -2673,17 +2684,23 @@ Product Details
 .product__header {
   background: var(--accent-soft);
   padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20rem;
 }
 
 .product__header img {
   max-width: 100%;
   max-height: 24rem;
   object-fit: contain;
+  display: block;
 }
 
 .product__footer {
   padding: 2rem;
   text-align: left;
+  margin-top: 1rem;
 }
 
 .product__footer h3 {
